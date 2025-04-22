@@ -35,10 +35,9 @@ The dataset contains the following columns:
 - **Testing Set MAE**: 2532.58 expenses (successfully passed with error under $3500!)
 - **Model Evaluation**: The model performs well, with the Mean Absolute Error (MAE) of the model predictions well under the required threshold.
 
-## 🔗 Try It
-
 Run it in Google Colab:  
-[📓 Open Notebook]([https://colab.research.google.com/drive/1SxbDdUh8_N9-p1XstanLobm22nBluao0?usp=sharing](https://colab.research.google.com/drive/1VkdWVsF-knTtrBV-bHw3XdoR1qM1FMVt?usp=sharing))
+[📓 Open Notebook](https://colab.research.google.com/drive/1VkdWVsF-knTtrBV-bHw3XdoR1qM1FMVt?usp=sharing)
+
 ## 📂 Project Files
 
 - `Linear_Regression_Health_Costs.ipynb`: Main notebook containing the code for training and evaluation of the model.
