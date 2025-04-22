@@ -18,15 +18,14 @@ The dataset contains the following columns:
 - `region`: Geographical region of the individual
 - `expenses`: Healthcare costs (target value)
 
-Source: [FreeCodeCamp Project Dataset](https://cdn.freecodecamp.org/project-data/health-costs/insurance.csv)
-
-## 🛠️ How the Model Works
-
-- **Preprocessing**: The categorical features (sex, smoker, region) are one-hot encoded to convert them into numerical format.
-- **Model Architecture**: The model uses a simple neural network architecture built with **TensorFlow/Keras**.
-- **Evaluation**: The dataset is split into training and testing sets (80%/20%). The model is trained on the training set and evaluated on the test set.
-- **Goal**: To achieve a **Mean Absolute Error (MAE)** below $3500 on the test set.
-
+## 🛠️ What This Model Does
+- Preprocesses categorical features using one-hot encoding
+- Splits the dataset into training and testing sets (80/20)
+- Normalizes the data
+- Builds a neural network using TensorFlow/Keras
+- Trains and evaluates the model
+- Achieves a Mean Absolute Error (MAE) of under $3500 on test data
+- 
 ## 🔥 Badge
 
 [![Passing Badge](https://img.shields.io/badge/Passed%20Challenge-✅%20%243500%20-%2336c541)](https://github.com/your-username/health-costs-regression)
@@ -35,10 +34,6 @@ Source: [FreeCodeCamp Project Dataset](https://cdn.freecodecamp.org/project-data
 
 - **Testing Set MAE**: 2532.58 expenses (successfully passed with error under $3500!)
 - **Model Evaluation**: The model performs well, with the Mean Absolute Error (MAE) of the model predictions well under the required threshold.
-
-## 🖼️ Model Predictions
-
-![Model Predictions](https://github.com/NyxBelle/health-costs-regression/raw/main/predictions.png)
 
 ## 📥 How to Run
 
@@ -55,4 +50,3 @@ Source: [FreeCodeCamp Project Dataset](https://cdn.freecodecamp.org/project-data
 
 - **TensorFlow** for model building and training
 - **Pandas** and **NumPy** for data handling
-- **Matplotlib** for data visualization
