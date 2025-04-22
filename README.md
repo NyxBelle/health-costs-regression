@@ -1,6 +1,6 @@
 # 🏥 Linear Regression Health Costs Calculator
 
-This project is part of the **FreeCodeCamp Machine Learning Certification Challenge**. The objective is to build a machine learning model that predicts healthcare costs using various personal and demographic features.
+This project is part of the [freeCodeCamp Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/) course. The objective is to build a machine learning model that predicts healthcare costs using various personal and demographic features.
 
 ## 🚀 Project Overview
 
@@ -35,12 +35,10 @@ The dataset contains the following columns:
 - **Testing Set MAE**: 2532.58 expenses (successfully passed with error under $3500!)
 - **Model Evaluation**: The model performs well, with the Mean Absolute Error (MAE) of the model predictions well under the required threshold.
 
-## 📥 How to Run
+## 🔗 Try It
 
-1. Open the notebook in [Google Colab]([https://colab.research.google.com](https://colab.research.google.com/drive/1VkdWVsF-knTtrBV-bHw3XdoR1qM1FMVt?usp=sharing))
-2. Install necessary libraries by running the initial cells
-3. Run the cells from top to bottom to train and evaluate the model
-
+Run it in Google Colab:  
+[📓 Open Notebook]([https://colab.research.google.com/drive/1SxbDdUh8_N9-p1XstanLobm22nBluao0?usp=sharing](https://colab.research.google.com/drive/1VkdWVsF-knTtrBV-bHw3XdoR1qM1FMVt?usp=sharing))
 ## 📂 Project Files
 
 - `Linear_Regression_Health_Costs.ipynb`: Main notebook containing the code for training and evaluation of the model.
