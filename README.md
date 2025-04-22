@@ -38,12 +38,9 @@ The dataset contains the following columns:
 Run it in Google Colab:  
 [📓 Open Notebook](https://colab.research.google.com/drive/1VkdWVsF-knTtrBV-bHw3XdoR1qM1FMVt?usp=sharing)
 
-## 📂 Project Files
-
-- `Linear_Regression_Health_Costs.ipynb`: Main notebook containing the code for training and evaluation of the model.
-- `predictions.png`: (Optional) A sample image of the model’s predictions vs. actual values.
-
 ## 👨‍💻 Tech Stack
-
-- **TensorFlow** for model building and training
-- **Pandas** and **NumPy** for data handling
+- Python 🐍
+- TensorFlow / Keras
+- Google Colaboratory
+- Pandas / NumPy
+- Matplotlib
